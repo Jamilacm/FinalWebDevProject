@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.banner {
+  background-image: url('banner2.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+  height: 800px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  font-size: larger;
+  font-weight: 300;
+  font-stretch: extra-condensed;
+  font-family: fantasy;
+  cursor:no-drop;
+}
+/* Styling for the image within the home content */
+.banner > img {
+  height: 900px;
+  background-position: ;
+}
+#about {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.our-vision {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.divisions {
+  display:flex; 
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.division {
+  flex: 0 0 calc(33.333% - 20px);
+  margin-bottom: 20px;
+}
+
+.division h3 {
+  text-align: center;
+}
+
+.division img {
+  width: 100%;
+  height: auto;
+
+}
+
+#volunteer, #projects, #volunteers, #contact {
+  text-align: center;
+  padding: 50px 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+}
